@@ -13,7 +13,7 @@ st.markdown("<p style='text-align: center;'>Revolutionize your testing with Gher
 
 # Main Form
 with st.form(key="main-form", clear_on_submit=True):
-    st.markdown("### 🚀 Test Input")
+    st.markdown("### 🚀 Test Inputs")
     
     st.text_area(
         label="Input Gherkin Feature File",
@@ -52,8 +52,8 @@ models = [
     "gpt-4-turbo",
     "gpt-4",
     "Mistral", 
-    "Gemini 1.5 Flash"
-    "Gemma 2 9B"
+    "Gemini 1.5 Flash",
+    "Gemma 2 9B",
     "Llama 3.2 8B"
 ]
 selected_model = st.sidebar.selectbox("Supported Models", options=models, help="""\f Supported AI Models for TestZeus-Hercules\n
